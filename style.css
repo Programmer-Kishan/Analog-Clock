@@ -1,0 +1,153 @@
+/*
+#F7FD04
+#F9B208
+#F98404
+#FC5404
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto+Mono:wght@700&display=swap');
+
+@keyframes handRotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 3%;
+    height: 100vh;
+    text-align: center;
+    background-color: #F98404;
+}
+
+#heading {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 5rem;
+    margin: 3% 0 4%;
+    color: #F9B208;
+    text-shadow: 3px 3px 8px #000;
+}
+
+#clock {
+    margin: 10% auto;
+    width: 24vw;
+    height: 24vw;
+    border-radius: 52%;
+    background-color: #F7FD04;
+    position: relative;
+    box-shadow: 2px 2px 20px #000;
+}
+
+.dot {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #FC5404;
+    transform-origin: 55% 55%;
+    top: 46.5%;
+    left: 48%;
+}
+
+.hand {
+    position: absolute;
+    background-color: #FC5404;
+}
+
+#sec-hand { 
+    height: 80%;
+    width: 1px;
+    top: 4%;
+    left: 50%;
+    transform-origin: 55% 55%;
+}
+
+#min-hand {
+    height: 60%;
+    width: 3px;
+    top: 4%;
+    left: 49%;
+    transform-origin: 73% 73%;
+}
+
+#hr-hand {
+    height: 50%;
+    width: 5px;
+    left: 49%;
+    top: 8%;
+    transform-origin: 79% 80%;
+}
+
+.time {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    font-size: 2rem;
+    /* visibility: hidden; */
+}
+
+.time-1 {
+    top: 7%;
+    right: 28%;
+}
+
+.time-2 {
+    top: 22%;
+    right: 12%;
+}
+
+.time-3 {
+    top: 42%;
+    left: 92%;
+}
+
+.time-4 {
+    top: 64%;
+    right: 10%;
+}
+
+.time-5 {
+    bottom: 9%;
+    right: 25%;
+}
+
+.time-6 {
+    top: 88%;
+    left: 47%;
+}
+
+.time-7 {
+    bottom: 10%;
+    left: 26%;
+}
+
+.time-8 {
+    bottom: 26%;
+    left: 11%;
+}
+
+.time-9 {
+    top: 42%;
+    left: 5%;
+}
+
+.time-10 {
+    bottom: 68%;
+    left: 10%;
+}
+
+.time-11 {
+    top: 7%;
+    left: 25%;
+}
+
+.time-12 {
+    left: 46%;
+}
